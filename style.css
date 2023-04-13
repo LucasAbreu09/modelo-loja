@@ -13,8 +13,8 @@ body{
 
 header{
     background-color: #48befd;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
 }
 
 section{
