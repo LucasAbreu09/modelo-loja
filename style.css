@@ -1,0 +1,33 @@
+.navbar-nav .nav-link.active{
+    color: #fff;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #95d3f4e9;
+}
+
+header{
+    background-color: #48befd;
+    position: sticky;
+    top: 0;
+}
+
+section{
+    height: 100vh;
+    margin-top: 3rem;
+}
+
+img{
+    margin-top: 2rem;
+    height: 35rem;
+    border: 5px solid #48befd;
+}
+
+.carousel-caption{
+    color: #000;
+}
