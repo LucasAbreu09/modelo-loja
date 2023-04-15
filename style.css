@@ -8,13 +8,13 @@ html{
 }
 
 body{
-    background-color: #b8e0f5e9;
+    background-color: rgb(234, 248, 255);
 }
 
 header{
-    background-color: #48befd;
+    background-color: rgb(134, 210, 250);
     /* position: sticky;
-    top: 0; */
+    top: 0;  */
 }
 
 section{
@@ -25,6 +25,14 @@ section{
 #carousel-imgs img{
     margin-top: 2rem;
     height: 35rem;
+}
+
+.text{
+    margin: 2rem 10rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(134, 210, 250, .5);
+    width: 75%;
 }
 
 .card img{
@@ -60,11 +68,40 @@ section{
     .row{
         padding-top: 0;
     }
+
+    #carousel-imgs img{
+        height: 20rem;
+    }
+
+    .text{
+        margin: 2rem 0;
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    #inicio{
+        height: 75vh;
+    }
+
+    #produtos{
+        margin-top: 0;
+    }
+
 }
+
+
 
 @media screen and (min-width:640px) and (max-width: 1023px) {
     section{
-        height: 50vh;
+        height: 60vh;
         margin-top: 3rem;
     }
+
+    .text{
+        margin: 2rem 0;
+        width: 100%;
+    }
+
 }
+
+
