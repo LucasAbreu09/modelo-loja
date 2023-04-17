@@ -1,6 +1,6 @@
-.navbar-nav .nav-link.active{
-    color: #fff;
-
+.navbar-nav .nav-link:hover{
+    border-top: 0.2rem solid rgb(234, 248, 255);
+    border-bottom: 0.2rem solid rgb(234, 248, 255);
 }
 
 html{
@@ -13,8 +13,21 @@ body{
 
 header{
     background-color: rgb(134, 210, 250);
-    /* position: sticky;
-    top: 0;  */
+}
+
+header h1{
+    font-style: italic;
+}
+
+header h1::after{
+    content: '';
+    display: block;
+    width: 10rem;
+    height: 0.3rem;
+    background-color: rgb(234, 248, 255);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
 }
 
 section{
@@ -25,6 +38,8 @@ section{
 #carousel-imgs img{
     margin-top: 2rem;
     height: 35rem;
+    border: 0.5rem solid rgb(134, 210, 250);
+    border-radius: 10px;
 }
 
 .text{
@@ -87,6 +102,11 @@ section{
         margin-top: 0;
     }
 
+    .navbar-nav .nav-link:hover{
+        border: none;
+    }
+    
+
 }
 
 
@@ -106,6 +126,10 @@ section{
         height: 130vh;
     }
 
+    .navbar-nav .nav-link:hover{
+        border: none;
+    }
+    
 }
 
 
